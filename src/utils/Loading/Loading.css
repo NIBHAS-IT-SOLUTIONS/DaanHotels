@@ -1,0 +1,183 @@
+/* .loading {
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+  background: black;
+}
+
+.loader {
+  height: 300px;
+  aspect-ratio: 1;
+  background: black;
+  position: relative;
+}
+
+.loader .box {
+  position: absolute;
+  background: linear-gradient(0deg, rgba(50,50,50,0.2) 0%, rgba(100,100,100,0.2) 100%);
+  border-radius: 50%;
+  border-top: 1px solid rgba(100, 100, 100, 1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px 0px;
+  backdrop-filter: blur(5px);
+  animation: ripple 2s infinite ease-in-out;
+}
+
+.loader .box:nth-child(1) {
+  inset: 40%;
+  z-index: 99;
+}
+
+.loader .box:nth-child(2) {
+  inset: 30%;
+  z-index: 98;
+  border-color: rgba(100, 100, 100, 0.8);
+  animation-delay: 0.2s;
+}
+
+.loader .box:nth-child(3) {
+  inset: 20%;
+  z-index: 97;
+  border-color: rgba(100, 100, 100, 0.6);
+  animation-delay: 0.4s;
+}
+
+.loader .box:nth-child(4) {
+  inset: 10%;
+  z-index: 96;
+  border-color: rgba(100, 100, 100, 0.4);
+  animation-delay: 0.6s;
+}
+
+.loader .box:nth-child(5) {
+  inset: 0%;
+  z-index: 95;
+  border-color: rgba(100, 100, 100, 0.2);
+  animation-delay: 0.8s;
+}
+
+.loader .logo {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  padding: 30%;
+}
+
+.loader .logo svg {
+  fill: grey;
+  width: 100%;
+  animation: color-change 2s infinite ease-in-out;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px 0px;
+  }
+  50% {
+    transform: scale(2.2);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 20px 0px;
+  }
+  100% {
+    transform: scale(1.3);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px 0px;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    fill: grey;
+  }
+  50% {
+    fill: white;
+  }
+  100% {
+    fill: grey;
+  }
+} */
+/* Demo Styles - It's all in the SVG */
+.loader {
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #000000;
+  font: 14px/21px Monaco, sans-serif;
+  color: #999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+}
+
+a, a:visited {
+  text-decoration: none;
+ 
+}
+
+h4 {
+  margin: 0;
+  color: #666;
+}
+
+.scene {
+  width: 100%;
+  height: 100%;
+  perspective: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene svg {
+  width: 240px;
+  height: 240px;
+}
+
+.dc-logo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.dc-logo:hover svg {
+  transform-origin: 50% 50%;
+  animation: arrow-spin 2.5s 0s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite;
+}
+
+.dc-logo:hover:before {
+  content: '\2764';
+  padding: 6px;
+  font: 10px/1 Monaco, sans-serif;
+  font-size: 10px;
+  color: #00fffe;
+  text-transform: uppercase;
+  position: absolute;
+  left: -70px;
+  top: -30px;
+  white-space: nowrap;
+  z-index: 20;
+  box-shadow: 0px 0px 4px #222;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.dc-logo:hover:after {
+  content: 'Digital Craft';
+  padding: 6px;
+  font: 10px/1 Monaco, sans-serif;
+  font-size: 10px;
+  color: #6E6F71;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  white-space: nowrap;
+  z-index: 20;
+  box-shadow: 0px 0px 4px #222;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: none;
+}
+
+@keyframes arrow-spin {
+  50% {
+    transform: rotateY(360deg);
+  }
+}

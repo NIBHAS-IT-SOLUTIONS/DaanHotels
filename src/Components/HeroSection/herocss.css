@@ -1,0 +1,250 @@
+.hero-section {
+    display: flex;
+    /* min-height: calc(100vh - 90px); */
+    gap: 35px;
+    /* margin-top: 90px; */
+    padding: 120px 6%;
+    background-image:linear-gradient(135deg, #00000064, #00000064);
+    box-shadow:  10px 20px 30px #0a4535;
+}
+
+/* Left */
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-slider {
+    position: relative;
+    height: 80vh;   
+    /* min-height: 600px; */
+    border-radius: 24px;
+    overflow: hidden;
+   box-shadow:  0px 0px 20px #3c450a;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border:3px solid red; */
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 45px;
+    color: #fff;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.15),
+        transparent
+    );
+}
+
+.hero-overlay h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.hero-overlay p {
+    font-size: 1.05rem;
+    max-width: 520px;
+    line-height: 1.7;
+}
+
+/* Right */
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-card {
+    width: 100%;
+    max-width: 500px;
+    background-image: linear-gradient(135deg, #06100d76, #084b3c);
+    border-radius: 24px;
+    padding: 30px;
+    /* box-shadow: 0 20px 45px rgba(0,0,0,.08); */
+    /* border: 1px solid #d1c301; */
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.397);
+}
+
+.booking-card h2 {
+    margin-bottom: 30px;
+    color: #e3c800;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.booking-card .form-label {
+    font-weight: 600;
+    color: #fbf9f9;
+}
+
+.booking-card .form-select {
+    height: 55px;
+    border-radius: 12px;
+    background: #0d443485;
+    color: #fff;
+}
+.booking-card .form-select::placeholder{
+    color: #fff;
+}
+.booking-btn {
+    width: 100%;
+    height: 56px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 17px;
+    background: #184b35;
+    border: none;
+}
+
+.booking-btn:hover {
+    background: #0f3827;
+}
+
+.hero-nav{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:52px;
+    height:52px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:22px;
+    font-weight:600;
+
+    color:#fff;
+
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(10px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.18);
+
+    transition:.35s;
+    z-index:5;
+}
+
+.hero-nav:hover{
+    background:#fff;
+    color:#1b4332;
+    transform:translateY(-50%) scale(1.08);
+}
+
+.prev-btn{
+    left:20px;
+}
+
+.next-btn{
+    right:20px;
+}
+
+.hero-slider:hover .hero-nav{
+    opacity:1;
+}
+
+.hero-nav{
+    opacity:.2;
+}
+
+
+
+.hero-content{
+    color:#fff;
+}
+
+.hero-tagline{
+    display:inline-flex;
+    align-items:center;
+    gap:18px;
+
+    font-size:18px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+
+    color:#d4af37;
+    font-weight:500;
+}
+
+.hero-tagline::before,
+.hero-tagline::after{
+    content:"";
+    width:60px;
+    height:1px;
+    background:#d4af37;
+    opacity:.7;
+}
+
+.hero-title{
+    margin:18px 0;
+    font-size:clamp(2.8rem,5vw,4rem);
+    line-height:1.05;
+    font-weight:300;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+.hero-subtitle{
+    max-width:500px;
+    font-size:18px;
+    line-height:1.8;
+    color:rgba(255,255,255,.85);
+}
+
+
+
+
+
+/* Mobile */
+
+@media (max-width:992px){
+.hero-image {
+    min-height: 420px;
+    
+}
+.hero-section{
+    flex-direction: column;
+    padding:25px;
+}
+
+.hero-slider{
+    min-height:420px;
+    max-height: 60vh;
+    margin-top: 100px;
+}
+
+.hero-overlay{
+    padding:25px;
+}
+
+.hero-overlay h1{
+    font-size:2rem;
+}
+
+.booking-card{
+    padding:30px;
+}
+
+}

@@ -1,0 +1,69 @@
+.counter-section {
+    background-color: #000000;
+  }
+  
+  /* .counter-box {
+    color: white;
+    padding: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  } */
+  
+  .counter-box .icon {
+    font-size: 40px;
+color: #ffcc24;
+  }
+  
+  .counter-box h2 {
+    font-weight: bold;
+        font-weight: 900;
+     background: linear-gradient(
+    90deg,
+    #c9ba7e,
+    #ffd000, #9b9266
+  );
+  background-size: 70%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+  }
+  
+  .counter-box p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+     background: linear-gradient(
+    90deg,
+    #c9ba7e,
+    #ffd000, #9b9266
+  );
+  background-size: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .counter-scroll {
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .counter-box {  border: 2px solid #ffd014;
+    background-color: rgba(255, 255, 255, 0.05); /* Optional styling */
+    /* background-image: linear-gradient(40deg, #3b5951, #273b35, #3b5951); */
+      background: linear-gradient(
+    90deg,
+#3b5951, #273b35, #3b5951
+  );
+  background-size: 300%;
+  animation: shine 3s linear infinite;
+
+    border-radius: 10px;
+    padding: 20px;
+    scroll-snap-align: start;
+  }
+  
+  @keyframes shine {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+} 

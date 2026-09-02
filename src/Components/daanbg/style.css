@@ -1,0 +1,40 @@
+ .home-img-bg{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    /* height: fit-content; */
+    background: #1f4d41;
+    filter: brightness(0.7);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+  }
+  .home-img-bg img{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .home-img-bg .text{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+
+    z-index: 1; 
+    color: rgba(255, 255, 255, 0.25);
+  }
+  .home-img-bg h1{
+    font-size: 8rem;
+   font-weight: 600;
+    
+  }
+  .home-img-bg::after{
+  content: "";
+  top: 0;
+  left: 20%;
+  bottom: 0;
+  right: 40%;
+  position: absolute;
+ background-image: linear-gradient(to right,#3b595101,#1f4d41 );
+  }
+  

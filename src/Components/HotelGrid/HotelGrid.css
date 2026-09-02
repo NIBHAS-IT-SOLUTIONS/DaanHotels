@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/gitky-trial');
+.bg-hotel {
+  background-color: #3b5951;  
+  /* color: white;  */
+}
+.bg-hotel img{
+    border: 2px solid #ffd014;
+}
+
+.bg-hotel h2 , .bg-hotel h5, .bg-hotel p {
+  font-weight: 900;
+  background: linear-gradient(
+    90deg,
+    #ffce0c,
+    #ffd000, #d1c172, #c3b364
+  );
+  background-size: 80%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(252, 76, 76);
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .bg-hotel {
+    padding: 20px 10px;
+  }
+
+  .bg-hotel h2 {
+    font-size: 2rem;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+
+  .hotel-description {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

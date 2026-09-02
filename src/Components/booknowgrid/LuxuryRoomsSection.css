@@ -1,0 +1,139 @@
+.rooms-carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ 
+  background-color: rgb(64, 93, 84);
+}
+
+.rooms-carousel {
+  display: flex;
+  overflow-x: scroll;
+  /* align-items: center ; */
+  transition: transform 0.5s ease-in-out;
+}
+.rooms-carousel-wrapper .btn-1{
+background: #0000006b;
+position: absolute;
+top: 12vh;
+left: 10px;
+z-index: 1;
+border: none;
+border-radius: 50%;
+}
+.rooms-carousel-wrapper .btn-2{
+  background: #0000006b;
+position: absolute;
+top: 12vh;
+right: 10px;
+z-index: 1;
+border: none;
+border-radius: 50%;
+}
+ .rooms-carousel-wrapper .scroll-btn{
+/* background-color: rgba(255, 255, 255, 0.273) !important; */
+height: 40px;
+color: white;
+/* text-align: center; */
+/* margin: auto; */
+/* margin-top: 10vh; */
+width: 40px;
+}
+.rooms-carousel::-webkit-scrollbar{
+  display: none;
+  width: 10px;
+  height: 10px;
+}
+.rooms-carousel::-webkit-scrollbar-thumb{
+  background: #3b5951;
+  color: rebeccapurple;
+  border-radius: 10px;
+}
+.rooms-carousel::-webkit-scrollbar-track{
+  /* background: #000; */
+}
+.room-card {
+  height: 250px;
+  flex-shrink: 0;
+  width: 25vw;
+  min-width: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.room-card .overlay {
+    border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.512);
+  padding: 20px;
+  width: 100vw;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.room-card .overlay h4,.room-card .overlay h6 {
+     background: linear-gradient(
+    90deg,
+    #c9ba7e,
+    #ffd000, #9b9266
+  );
+  background-size: 100%;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.room-card .overlay a{
+  background: linear-gradient(40deg, #3b5951, #273b35, #3b5951);
+  color: rgb(255, 255, 255);
+}
+/* Background styles (replace with actual images or colors) */
+.bg-card-2 {
+  background-image: url('https://s3.ap-south-1.amazonaws.com/buzz.beconf.test/daan-orchid-residency/super-deluxe-Premium%2014.jpg'); /* Replace with actual paths */
+}
+
+
+.bg-card-3 {
+  background-image: url('../../../public/Images/lux-2-6.jpg');
+}
+
+.bg-card-4 {
+  background-image: url('../../../public/Images/cosmosinn.webp');
+}
+.bg-card-5 {
+  background-image: url('https://i.postimg.cc/YCMp3ZBM/DAAN-TEMPLE-INN029.jpg');
+}
+.bg-card-6 {
+  background-image: url('../../../public/Images/AM-5.jpg');
+}
+.bg-card-7 {
+  background-image: url('https://i.postimg.cc/28tq9H6J/ABI6814-Edit.jpg');
+}
+.bg-card-8 {
+  background-image: url('https://i.postimg.cc/y6fkcd47/ABI1545-HDR-Edit.jpg');
+}.bg-card-9 {
+  background-image: url('https://r1imghtlak.mmtcdn.com/ad985713-3948-4df7-ae3d-6ccfb5940d21.jpg?downsize=540:*');
+}.bg-card-10 {
+  background-image: url('https://i.postimg.cc/6TsQtpPv/ABI1105-Edit.jpg');
+}.bg-card-11 {
+  background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/527524365.jpg?k=d114a1843f1b0aecea8e1cebfe365ab7b712ed471e7dcdbe18beeacaa4529dba&o=');
+}.bg-card-12 {
+  background-image: url('https://amalaarcade.com/wp-content/uploads/2024/08/DSC3935-HDR-copy-2048x1366.jpg');
+}
+.bg-card-13 {
+  background-image: url('https://daanregency.com/uploads/WhatsApp_Image_2022-06-13_at_11_03_13_AM_(1)1.jpeg');
+}
+.bg-card-14 {
+  background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/478864685.jpg?k=739e77084ba58363f23e58c72a8fdb2fa660964e511cf892dfbd54e1ec94ecae&o=');
+}
+
+/* Optional: fallback solid colors if images not available */
+.bg-card-1, .bg-card-2, .bg-card-3, .bg-card-4, .bg-card-5, .bg-card-6 {
+  background-color: #333;
+}

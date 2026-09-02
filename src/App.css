@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/diphylleia');
+
+                
+
+*{
+font-family: 'Diphylleia', sans-serif;                              
+}
+
+/* backgroundImage:"linear-gradient(40deg, #3b5951c9, #273b35ca, #3b5951bd)" */
+
+  /* .home-gold-h1{
+    font-weight: 900;
+     background: linear-gradient(
+    90deg,
+    #c9ba7e,
+    #ffd000, #9b9266
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  } */
+
+  /* .text-gold-gradient {
+  background: linear-gradient(
+    90deg,
+    #b68e2a,
+    #f7d774,
+    #fff4c2,
+    #d4af37,
+    #b68e2a
+  );
+  background-size: 300%;
+  animation: shine 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+} */

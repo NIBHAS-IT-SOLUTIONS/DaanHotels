@@ -1,0 +1,377 @@
+
+.daan-ambalath .custom-toggle{
+    background-color: rgb(26, 136, 90);
+    color: white;
+    
+}
+.daan-ambalath .section-1{
+
+    padding: 200px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.daan-ambalath img{
+      border: 2px solid #ffd014;
+}
+.ambalath-btn{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+}
+.daan-ambalath .img-p{
+    text-align: start;
+    width: 300px;
+    font-size: 15px;
+}   
+.daan-ambalath {
+    font-family:'Times New Roman', Times, serif;
+}
+.daan-ambalath img{
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.177);
+    border-radius: 20px;
+}
+.daan-ambalath .img-shade{
+         box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.186);
+}
+.daan-ambalath .section-1 h1{
+    margin: auto;
+    font-size: 40px;
+    width: fit-content;
+}
+.daan-ambalath .section-1 p{
+    font-size: 18px;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.daan-ambalath .section-1 .sec-1-images {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    /* margin: auto; */
+/* background-color: rgb(213, 127, 127); */
+    scroll-snap-type: x mandatory;
+}
+.daan-ambalath .section-1 .sec-1-images  img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    /* he */
+    transition: transform 0.3s ease;
+    scroll-snap-align: center;
+}
+
+
+.daan-ambalath section:nth-child(odd){
+  background-image: linear-gradient(40deg, #1f4d41, #273b35);
+/* color: rgb(255, 255, 255); */
+   padding: 20px 0px;
+}
+.daan-ambalath section:nth-child(even){
+   /* color: rgb(255, 204, 0); */
+        background-image: linear-gradient(40deg, #273b35, #1f4d41); 
+}
+.daan-ambalath section:nth-child(even) p{
+    line-height: 30px;
+}
+.daan-ambalath section h1,.daan-ambalath section h2, .daan-ambalath section p, .daan-ambalath section h3{
+          background: linear-gradient(
+      90deg,
+      #c9ba7e,
+      #ffd105, #9b9266
+    );
+    background-size: 80%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.daan-ambalath .section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0px;
+    align-items: center;
+}
+.daan-ambalath .section-2 .sec-2-card{
+    
+}
+
+.daan-ambalath .section-2 h2{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.daan-ambalath .section-2 p{
+    width: 90%;
+    font-size: 18px;
+    margin: auto;
+    text-align:center;
+}
+
+.daan-ambalath .section-2 img{
+    width: 300px;
+}
+
+.daan-ambalath .section-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0px;
+}
+.daan-ambalath .section-3 .sec-3-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.daan-ambalath .section-3 .sec-3-cards .sec-3-card-1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.daan-ambalath .section-3 .sec-3-cards dash{
+    width: 100%;
+    height: 5px ;
+
+background-color: rgb(81, 131, 116);
+}
+.daan-ambalath .section-3 .sec-3-cards p{
+    /* background-color: antiquewhite; */
+    margin: 0;
+    /* padding: 0; */
+}
+.daan-ambalath .section-3 .sec-3-cards img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.daan-ambalath .section-4{
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.daan-ambalath .section-4 .sec-4-card{
+    display: grid;
+    gap: 7px;
+    place-items: center;
+    text-align: center;
+    width: 90%;
+}
+.daan-ambalath .section-4 .sec-4-card-2{
+    display: grid;
+    gap: 7px;
+    place-items: center;
+    text-align: center;
+    width: 90%;
+}
+.daan-ambalath .section-4 .sec-4-card p{
+    font-size: 18px;
+}
+.daan-ambalath .img-p{
+    width: 90%;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.daan-ambalath .section-4 img{
+    width: 300px;
+}
+
+.daan-ambalath .section-5{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+} .daan-ambalath .section-5 .sec-5-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.daan-ambalath .section-5 img{
+    width: 300px;
+}
+.daan-ambalath .section-6 img{
+    width: 300px;
+}
+
+@media screen and (min-width:1200px){
+    .daan-ambalath .section-1 .sec-1-images{
+        width: fit-content;
+        max-width: 100%;
+        /* background-color: aqua; */
+        height:auto;
+        gap: 35px;
+        /* margin: auto; */
+        /* padding: 0px 30px; */
+        justify-content: auto;
+
+    }
+        .daan-ambalath .section-1 h1{
+            font-size: 70px;
+        }
+    .daan-ambalath .section-1 .sec-1-images img{
+        width: 20vw;
+        min-width: 300px;
+        height: 55vh;
+        object-fit: cover;
+    }
+    .daan-ambalath .section-1 .sec-1-images img:nth-child(odd){
+        margin-top:50px;
+    }
+        .daan-ambalath .section-1 .sec-1-images img:nth-child(even){
+margin-top: -50px;
+        }
+    
+.daan-ambalath .section-2{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 85vh;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+   .daan-ambalath .section-2 .sec-2-card{
+    width: 35vw;
+    display: flex;
+    /* align-items: start; */
+/* padding-left: 20vw; */
+padding: 10px 2%;
+/* padding: 10px 0px; */
+    /* float:right; */
+    flex-direction: column;
+   /* justify-content: start; */
+   /* padding: 10px; */
+    /* background-color: antiquewhite; */
+    /* text-align: start; */
+    gap: 10px;
+   }
+   .daan-ambalath .section-2 h2{
+    width: 90%;
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    /* background-color: rgb(93, 73, 46); */
+    /* margin: auto; */
+}
+.daan-ambalath .section-2 p{
+    width: 90%;
+    background-color: rgba(0, 255, 255, 0);
+    margin: 0;
+    text-align:start;
+}
+.daan-ambalath .section-2 img{
+    width: 25vw;
+    height: 70vh;
+    object-fit: cover;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.186);
+}
+.daan-ambalath .section-3{
+    min-height: 85vh;
+    height: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.daan-ambalath .section-3 h1{
+    font-size: 45px;
+}
+.daan-ambalath .section-3 .sec-3-card-1{
+    width: 350px !important;
+    height: 500px;
+    flex-shrink: 0;
+
+    gap: 10px !important;
+    /* background-color: aqua; */
+}
+.daan-ambalath .section-3 .sec-3-cards{
+ 
+    gap: 30px;
+}
+.daan-ambalath .section-3 .sec-3-cards img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* .daan-ambalath .section-4{
+    justify-content: center;
+} */
+ .daan-ambalath .section-4{
+/* background-color: antiquewhite !important; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    height: 85vh;
+}
+.daan-ambalath .section-4 h1{
+    font-size: 45px;
+}
+ .daan-ambalath .section-4 p{
+    font-size: 18px;
+ }
+.daan-ambalath .section-4 .sec-4-card{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: start;
+    /* place-items: center; */
+    text-align: start;
+    width: 25vw; 
+}
+.daan-ambalath .section-4 .sec-4-card-2{
+width: 30vw;
+/* text-align: start; */
+display: grid;
+/* place-items: center; */
+/* background-color: aqua; */
+}
+.daan-ambalath .section-4 .sec-4-card-2 img{
+    width: 100%;
+}
+.daan-ambalath .section-5{
+    flex-direction: row;
+    background-color: aliceblue;
+justify-content: center;
+height: 85vh;
+} 
+.daan-ambalath .section-5 .sec-5-card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 10px;
+    width: 30vw;
+    /* background-color: aqua; */
+    margin: 0;
+}
+.daan-ambalath .section-5 h2{
+    width: 20vw;
+    font-size: 30px;
+}
+.daan-ambalath .section-5 .sec-5-card img{
+    width:20vw;
+}
+.daan-ambalath .section-5 .sec-5-img{
+    width: 30vw;
+    height: 70vh;
+    object-fit: cover;
+}
+}

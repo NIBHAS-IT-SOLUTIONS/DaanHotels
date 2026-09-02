@@ -1,0 +1,176 @@
+@import url('https://fonts.cdnfonts.com/css/maulysia');
+@import url('https://fonts.cdnfonts.com/css/jenkine');
+@import url('https://fonts.cdnfonts.com/css/sweet-bulky');
+@import url('https://fonts.cdnfonts.com/css/young-serif');
+@import url('https://fonts.cdnfonts.com/css/freemono');
+@import url('https://fonts.cdnfonts.com/css/mistoni');
+   /* Reset styles */
+
+   /* .text-gold-gradient {
+  background: linear-gradient(
+    90deg,
+    #b68e2a,
+    #f7d774,
+    #fff4c2,
+    #d4af37,
+    #b68e2a
+  );
+  background-size: 300%;
+  animation: shine 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+} */
+ 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Section background */
+.bg-gray {
+    /* background-color:white; */
+    /* background: url('../../Images/DaanHote.png'); */
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (max-width: 750px){
+  .bg-gray {
+      height: 65vh;}
+}
+@media (min-width: 750px) and (max-width: 1400px) {
+  .bg-gray {
+    height: 90vh;
+  }
+}
+
+/* Headings */
+.site-heading {
+  
+  margin-bottom: 35px;
+  text-align: center;
+}
+.site-heading h2 {
+  font-size: 3.5rem;
+ background: linear-gradient(
+    90deg,
+    #d4af37,
+    #beb27a,
+    #ffd000, #89825d,
+    #d4af37
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: 'jenkine', sans-serif;                                               */
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.site-heading h2 span {
+  /* color: #b48a53; */
+}
+.site-heading h4 {
+  /* font-family: 'Mistoni', sans-serif; */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.site-heading h4::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  margin-left: -25px;
+  background: #b48a53;
+}
+
+/* Offer cards */
+.item {
+  position: relative;
+  background: #fff;
+  border: 2px solid #ffd014;
+  border-radius: 10px;
+  /* padding: 30px ; */
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.item h4{
+   /* font-family: 'Mistoni', sans-serif; */
+                                                
+}
+.offer-percent {
+   /* font-family: 'Sweet Bulky', sans-serif;       
+                                                                             */
+  font-family: 'Young Serif', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #0000008a;
+  transition: all 0.3s ease;
+}
+.offer-hover {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px ;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.474);
+  color: white;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.item:hover .offer-hover {
+  opacity: 1;
+}
+.item:hover .offer-percent {
+  opacity: 0;
+}
+.offer-code {
+  font-family: 'FreeMono', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.copied-msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #28a745;
+  padding: 6px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.swiper {
+  padding-bottom: 30px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}

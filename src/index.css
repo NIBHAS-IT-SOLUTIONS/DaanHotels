@@ -1,0 +1,19 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import 'react-datepicker/dist/react-datepicker.css';
+
+.transition-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+body {
+  margin: 0;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}

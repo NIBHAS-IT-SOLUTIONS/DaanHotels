@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/tree-ghost');
+
+
+
+.hero {
+    position: relative;
+    /* height: 92vh; */
+    background-color: rgba(240, 248, 255, 0);
+   /* background-image: linear-gradient(40deg,#5da274, #3b5951 ); */
+  }
+ 
+  .bookingbar {
+    align-self: center;
+    position: relative;
+    margin-top: -2%;
+    margin-left: 10%;
+    width: 80%;
+    position: relative;
+   
+  }
+
+  .home-gold-h1{
+    font-weight: 900;
+     background: linear-gradient(
+    90deg,
+    #c9ba7e,
+    #ffd000, #9b9266
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+    .home-map-dot{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      padding: 20px 10px;
+      /* flex-direction: column; */
+      background: #000;
+    }
+    .home-map-container{
+      width:40%;
+      min-width: 350px;
+      height: fit-content;
+      padding: 0px;
+      background: #000000;
+      position: relative;
+    }
+.marker{
+  cursor: pointer;
+}
+.tooltip{
+  opacity: 0;
+}
+.marker:hover .tooltip{
+  opacity: 1;
+}
+.tooltip rect{
+  fill: white;
+  stroke:#ccc;
+  z-index: 1050;
+}
+.tooltip text{
+  fill: black;
+}
+    .home-map-hover{
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+    .home-map-hover picture:nth-child(1){
+      
+      position: absolute;
+top: 17.5%;
+left: 49%;
+transform: translate(-50%,100%);
+      height: fit-content;
+  
+      /* bottom: 20px; */
+      border: 2px solid red;
+    }
+
+    .home-map-hover p{
+      font-size: 12px;
+      opacity: 0;
+    }
+     .home-map-dot ul{
+display: flex;
+flex-wrap: wrap;    
+gap: 10px;  
+margin-left: -20px;
+     }
+     .home-map-details{
+      width: 60%;
+      min-width: 320px;
+      /* background-color: #9b9266; */
+     }
+     .home-map-dot .home-map-head{
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      min-width: 300px ;
+      /* background: #d08f8f; */
+      flex-wrap: wrap;
+      padding: 50px 0px;
+     }
+      .home-map-dot .home-map-list{
+        list-style:circle;
+        display: flex;
+        gap: 60px;
+        margin-left: 0;
+      }
+  .home-map-dot .kerala{
+ width: 100%;
+ min-width: 350px;
+  }
+  .banner-section {
+  
+    /* background: url('https://i.postimg.cc/9QdVHnhR/Untitled-design-29.png') no-repeat center center; */
+    background-size: cover;
+    height: 40vh;
+    position: relative;
+    color: rgb(255, 255, 255);
+    
+  }
+    .banneroverlay {
+    background-color: rgba(0, 0, 0, 0.947); /* dark overlay */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-title {
+    font-family: 'Tree Ghost', sans-serif;                                            
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .banner-button {
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 1px;
+   
+    color: white;
+  }  
+  @media (max-width: 575px) {
+    .bookingbar {
+      margin-top: -40%; 
+    }
+     .home-map-dot h1{
+      font-size: 20px;
+     }
+  }
