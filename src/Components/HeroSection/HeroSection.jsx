@@ -12,10 +12,9 @@ const HeroSection = () => {
        HotelName:"Daan Hotels",
       description:"Stay in Comfort. Leave with Memories.",
       main:true
-      
     },
     {
-      url:'https://i.postimg.cc/9QdVHnhR/Untitled-design-29.png',
+      url:'https://pix8.agoda.net/hotelImages/110614/846707625/8367d308835df36a197bb014e3b964e1.jpg?va=1&ce=2&s=1024x',
       HotelName:"Daan Orchid Residency",
       description:"Stay in Comfort. Leave with Memories.",
        main:false
@@ -25,7 +24,7 @@ const HeroSection = () => {
       description:"A Place for Every Family Moment.",
        main:false
     }
-    
+
     ,{
       HotelName:"Daan Regency",
       description:"In the Heart of the City, With You in Mind",
@@ -63,7 +62,7 @@ const facilities = [
     location: "Trivandrum",
     location2:'Thiruvananthapuram',
       img:'/Images/BG-20.jpeg',
-      link: 'https://daancosmosinn.in/'
+      link: '/daan-cosmos-inn'
   },
   {
     name: "Daan Temple inn",

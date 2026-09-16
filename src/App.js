@@ -19,6 +19,7 @@ import DaanTempleInn from './Pages/DaanTemple';
 // import c from './Pages/DaanOrchid';
 import DaanOrchid from './Pages/DaanOrchid';
 import AmbalathGallery from './Pages/AmbalathGallery/Gallery';
+import DaanCosmosInn from './Pages/DaanCosmosInn';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/Monsoon-Retreats-By-Daan" element={ <DaanThekkady/> } />
         <Route path="/Cloud-By-Daan" element={ <DaanClouds/> } />
         <Route path="/gallery/daan-ambalath/" element={ <AmbalathGallery/> } />
+        <Route path="/daan-cosmos-inn" element={ <DaanCosmosInn/> } />
 
       </Routes>
     </Router>

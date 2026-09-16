@@ -25,7 +25,7 @@ const TempleInnImages=[
 const DaanOrchid = () => {
   return (
     <div className='daan-lux-inn'>
-      <Header number={"+91 094460 71141"}></Header>
+      <Header number={"+91 094460 71141"} booklink={'https://bookings.daanhotels.com/book/daan-orchid-residency'}></Header>
       <section className='section-1'> <h1>Daan Orchid Residency</h1> <h3>Luxury Business Hotel</h3> 
         <p>Pulimoodu Rd, Pulimoodu Junction, Kottayam, Kerala 686001<br /> <span style={{padding:"10px",textDecoration:"underline"}}>Mob: 094460 71141</span> </p>
 

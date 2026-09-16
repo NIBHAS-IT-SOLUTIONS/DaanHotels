@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 const DaanLuxInn = () => {
   return (
     <div className='daan-lux-inn'>
-      <Header number={"+91 -999-557-7077"}></Header>
+      <Header number={"+91 -999-557-7077"} booklink={'https://be.aiosell.com/book/6e131bf058'}></Header>
       <section className='section-1'> <h1>DAAN LUXE INN</h1> <h3>Luxury Business Hotel</h3>
         <p>Majestic Tower, Powerhouse Rd, Chenthitta, Thampanoor, Trivandrum  <br /> <span style={{padding:"10px",textDecoration:"underline"}}>Mob: 91 9995577077</span> </p>
 

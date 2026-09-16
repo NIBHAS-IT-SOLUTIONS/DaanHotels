@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 // import newlogo from '../../Images/logoDaan2.png';
 import SearchBar from '../searchBar';
 
-const Header = ({bgcolor,number,gallery ,no}) => {
+const Header = ({bgcolor,number,gallery ,no,booklink}) => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const navRef = useRef();
@@ -90,7 +90,7 @@ const Header = ({bgcolor,number,gallery ,no}) => {
 
       </Nav>
 
-      <Button onClick={() => window.open('https://bookings.daanhotels.com/book/6891adaf23')} className="book-btn">
+      <Button onClick={() => window.open(booklink || 'https://bookings.daanhotels.com/book/6891adaf23')} className="book-btn">
         Book Now
       </Button>
 

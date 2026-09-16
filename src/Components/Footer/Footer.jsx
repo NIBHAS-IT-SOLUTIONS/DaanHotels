@@ -140,7 +140,7 @@ function Footer({num}) {
               {openLocation==="trivandrum" && (
                 <ul>
                   <li><Link to="/daanluxeinn" style={{color:"#ffc928"}} className="text-decoration-none">Daan Luxe Inn</Link></li>
-                  <li><Link to="https://daancosmosinn.in/" style={{color:"#ffc928"}} className="text-decoration-none">Daan Cosmosinn</Link></li>
+                  <li><Link to="/daan-cosmos-inn" style={{color:"#ffc928"}} className="text-decoration-none">Daan Cosmosinn</Link></li>
                   <li><Link to="https://be.aiosell.com/book/d53b872227" style={{color:"#ffc928"}} className="text-decoration-none">Meridian By Daan</Link></li>
                 </ul>
               )}
@@ -159,7 +159,7 @@ function Footer({num}) {
                 <ul>
                   <li><Link to="https://amalaarcade.com/" style={{color:"#ffc928"}} className="text-decoration-none">Amala Arcade Thrissur</Link></li>
                   <li><Link to="https://be.aiosell.com/book/04207cd949" style={{color:"#ffc928"}} className="text-decoration-none">Daan Regency</Link></li>
-                  <li><Link to="https://daancosmosinn.in/" style={{color:"#ffc928"}} className="text-decoration-none">D  Nest Inn</Link></li>
+                  <li><Link to="https://dnestinn.store/" style={{color:"#ffc928"}} className="text-decoration-none">D  Nest Inn</Link></li>
                 </ul>
               )}
               <p onClick={()=> toggleLocation("vagamon")} style={{color:"#ffc928"}}>

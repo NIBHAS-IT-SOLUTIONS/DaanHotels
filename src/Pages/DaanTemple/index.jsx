@@ -21,7 +21,7 @@ const TempleInnImages=[
 const DaanTempleInn = () => {
   return (
     <div className='daan-lux-inn'>
-      <Header number={"+91 07306655074"}></Header>
+      <Header number={"+91 07306655074"} booklink={'https://bookings.daanhotels.com/book/6891adaf23'}></Header>
       <section className='section-1'> <h1>DAAN TEMPLE INN</h1> <h3>Luxury Business Hotel</h3> 
         <p>Ambalath Ayesha, near, Karakkad Rd, East Nada, Guruvayur, Kerala 680101  <br /> <span style={{padding:"10px",textDecoration:"underline"}}>Mob: 0-7306655074</span> </p>
 

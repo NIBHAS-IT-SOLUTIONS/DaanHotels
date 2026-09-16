@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 const DaanThekkady = () => {
   return (
     <div className='daan-thekkady'>
-      <Header number={"+91 -8848-528-011"}  ></Header>
+      <Header number={"+91 -8848-528-011"} booklink={'https://be.aiosell.com/book/77f4b1aeff'}></Header>
       <section className='section-1'> <h1>MONSOON RETREATS BY DAAN</h1> <h3>Eco Stay in Thekkady</h3>
         <p> Attapallam, Thekkady, Kumily, Kerala 685509 <br /><span style={{padding:"10px" ,textDecoration:"underline"}}> Mob: 91 8848528011</span></p>
 

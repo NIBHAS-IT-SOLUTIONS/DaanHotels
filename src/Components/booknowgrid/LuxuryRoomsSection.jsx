@@ -27,7 +27,7 @@ const roomCards = [
     location: "Trivandrum",
     location2:'Thiruvananthapuram',
       img:'/Images/BG-20.jpeg',
-      link: 'https://daancosmosinn.in/'
+      link: '/daan-cosmos-inn'
   },
   {
     id: 4,
@@ -88,7 +88,7 @@ const roomCards = [
     subtitle:"Studio AC Rooms",
     bgClass: 'bg-card-12',
     location: "Thrissur",location2:"",
-         img:'https://i.postimg.cc/x8Bwd14R/DSC4163-HDR-copy-scaled.jpg',
+         img:'https://cf.bstatic.com/xdata/images/hotel/max1024x768/588300359.jpg?k=ee1b24c0d151307f9bfb8b10eba15b1787d32713c671b30ec304497fdf1f81b0&o=',
       link: 'https://amalaarcade.com/'
   },
   {

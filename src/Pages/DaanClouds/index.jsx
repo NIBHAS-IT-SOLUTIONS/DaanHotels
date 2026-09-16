@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 const DaanClouds = () => {
   return (
     <div className='daan-clouds'>
-      <Header number={"+91 9633-833-077"}  ></Header>
+      <Header number={"+91 9633-833-077"} booklink={'https://be.aiosell.com/book/8903988c3c'}></Header>
       <section className='section-1'> <h1>THE CLOUD BY DAAN VAGAMON</h1> <h3>A Serene Escape in Vagamon</h3>
         <p> Vattapathal Rd, Vagamon, Idukki, Kerala 685503 <br /><span style={{padding:"10px" ,textDecoration:"underline"}}> Mob: +91 9633833077</span></p>
 

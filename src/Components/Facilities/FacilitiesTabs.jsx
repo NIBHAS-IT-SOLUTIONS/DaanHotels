@@ -49,7 +49,7 @@ const Trivandrum=[{
     
 },{
      name:"Daan Cosmosis",
-      // icon: <FaHotel />,
+      // icon: <FaHotel />, 
       title: 'Vazhakala',
       phone: `📞 +91 79072-18688`,
       description: 'Experience unparalleled comfort and convenience with our exceptional range of services and amenities',
@@ -166,7 +166,7 @@ const FacilitiesTabs = ({facilities,from}) => {
           {/* <p> {i.hour}</p> */}
           
           {from === 'Home' ? 
- <a href="https://daancosmosinn.in/"><button className="btn btn-lg btn-block text-white px-4" style={{backgroundImage:"linear-gradient(40deg, #3b5951, #273b35, #3b5951)"}}>Book Now</button></a>
+ <a href='/daan-cosmos-inn'><button className="btn btn-lg btn-block text-white px-4" style={{backgroundImage:"linear-gradient(40deg, #3b5951, #273b35, #3b5951)"}}>Book Now</button></a>
           :
             <h3></h3>
            }
