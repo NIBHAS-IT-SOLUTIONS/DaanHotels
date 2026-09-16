@@ -31,7 +31,7 @@ const Hotels = [
     location: "Trivandrum",
     location2:'Thiruvananthapuram',
       img:'/Images/BG-20.jpeg',
-      link: 'https://daancosmosinn.in/'
+      link: '/daan-cosmos-inn'
   },
   {
     name: "Daan Temple inn",
