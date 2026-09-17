@@ -140,7 +140,7 @@ function Footer({num}) {
               {openLocation==="trivandrum" && (
                 <ul>
                   <li><Link to="/daanluxeinn" style={{color:"#ffc928"}} className="text-decoration-none">Daan Luxe Inn</Link></li>
-                  <li><Link to="/daan-cosmos-inn" style={{color:"#ffc928"}} className="text-decoration-none">Daan Cosmosinn</Link></li>
+                  <li><Link to="/daancosmosinntvm" style={{color:"#ffc928"}} className="text-decoration-none">Daan Cosmosinn</Link></li>
                   <li><Link to="https://be.aiosell.com/book/d53b872227" style={{color:"#ffc928"}} className="text-decoration-none">Meridian By Daan</Link></li>
                 </ul>
               )}

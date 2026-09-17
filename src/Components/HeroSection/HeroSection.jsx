@@ -62,7 +62,7 @@ const facilities = [
     location: "Trivandrum",
     location2:'Thiruvananthapuram',
       img:'/Images/BG-20.jpeg',
-      link: '/daan-cosmos-inn'
+      link: '/daancosmosinntvm'
   },
   {
     name: "Daan Temple inn",

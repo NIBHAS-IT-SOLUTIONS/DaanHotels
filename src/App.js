@@ -42,7 +42,7 @@ function App() {
         <Route path="/Monsoon-Retreats-By-Daan" element={ <DaanThekkady/> } />
         <Route path="/Cloud-By-Daan" element={ <DaanClouds/> } />
         <Route path="/gallery/daan-ambalath/" element={ <AmbalathGallery/> } />
-        <Route path="/daan-cosmos-inn" element={ <DaanCosmosInn/> } />
+        <Route path="/daancosmosinntvm" element={ <DaanCosmosInn/> } />
 
       </Routes>
     </Router>

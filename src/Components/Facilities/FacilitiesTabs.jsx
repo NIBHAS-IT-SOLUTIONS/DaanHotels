@@ -166,7 +166,7 @@ const FacilitiesTabs = ({facilities,from}) => {
           {/* <p> {i.hour}</p> */}
           
           {from === 'Home' ? 
- <a href='/daan-cosmos-inn'><button className="btn btn-lg btn-block text-white px-4" style={{backgroundImage:"linear-gradient(40deg, #3b5951, #273b35, #3b5951)"}}>Book Now</button></a>
+ <a href='/daancosmosinntvm'><button className="btn btn-lg btn-block text-white px-4" style={{backgroundImage:"linear-gradient(40deg, #3b5951, #273b35, #3b5951)"}}>Book Now</button></a>
           :
             <h3></h3>
            }

@@ -171,7 +171,7 @@ function Home() {
     },   {
       id:11,name:'Monsoon Retreats',x:595,y:465,  link: '/Monsoon-Retreats-By-Daan', image:"https://r1imghtlak.mmtcdn.com/6e8fbcd1-082e-4e24-b87a-427d37b17bd1.jpg?downsize=540:*"
     },   {
-      id:12,name:'Daan CosmosInn',x:570,y:680,  link: '/daan-cosmos-inn', image:"/Images/BG-20.jpeg"
+      id:12,name:'Daan CosmosInn',x:570,y:680,  link: '/daancosmosinntvm', image:"/Images/BG-20.jpeg"
     }, {
       id:13,name:'Urban24',x:475,y:400, link: 'https://urbn24.in/', image:"https://i.postimg.cc/WpFc6SBt/Untitled-design-34.png"
     },{
@@ -195,6 +195,7 @@ function Home() {
     }, 2000);
 
   }, []);
+  
   return (
     <div >
 
