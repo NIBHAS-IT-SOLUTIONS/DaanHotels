@@ -58,8 +58,8 @@
     scroll-snap-type: x mandatory;
 }
 .daan-lux-inn .section-1 .sec-1-images  img {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
     /* he */
     transition: transform 0.3s ease;
